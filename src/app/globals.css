@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+
+@theme {
+    --color-pet-primary: #7c3aed;
+    --color-pet-primary-hover: #6d28d9;
+}
+
+body {
+    @apply bg-white text-zinc-900;
+}
